@@ -1,5 +1,5 @@
-var currentDay = moment().format("dddd LL");
-$("#currentDay").append(currentDay);
+var currentDate = moment().format("dddd LL");
+$("#currentDate").append(currentDate);
 
 var currentTime = moment().format("LT");
 $("#currentTime").append(currentTime);
